@@ -244,6 +244,7 @@ GameObject:
   - component: {fileID: 9059871596617032967}
   - component: {fileID: 3069107893140129422}
   - component: {fileID: 8837432775541275643}
+  - component: {fileID: 8073180809868842270}
   m_Layer: 9
   m_Name: Skeleton
   m_TagString: Enemy
@@ -483,3 +484,17 @@ MonoBehaviour:
   _health: 100
   _isAlive: 1
   _isHit: 0
+--- !u!114 &8073180809868842270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6393158209144454651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c18a42eb3740b4cbc5adf9559a1f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnCooldown: 5
+  respawnPoint: {x: 0, y: 0}
